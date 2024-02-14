@@ -19,7 +19,7 @@ import javax.persistence.Table;
 public class Empregado {
 
 	@Id
-	private String cpf;
+	private Long cpf;
 	private String enome;
 	private Double salary;
 	
@@ -43,11 +43,11 @@ public class Empregado {
 	public Empregado() {
 	}
 
-	public String getCpf() {
+	public Long getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(String cpf) {
+	public void setCpf(Long cpf) {
 		this.cpf = cpf;
 	}
 
