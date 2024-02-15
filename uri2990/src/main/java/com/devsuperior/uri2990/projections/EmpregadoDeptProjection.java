@@ -2,7 +2,7 @@ package com.devsuperior.uri2990.projections;
 
 public interface EmpregadoDeptProjection {
 
-	String getCpf();
+	Long getCpf();
 	String getEnome();
 	String getDnome();
 }

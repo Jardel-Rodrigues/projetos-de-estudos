@@ -4,14 +4,14 @@ import com.devsuperior.uri2990.projections.EmpregadoDeptProjection;
 
 public class EmpregadoDeptDTO {
 
-	private String cpf;
+	private Long cpf;
 	private String enome;
 	private String dnome;
 	
 	public EmpregadoDeptDTO() {
 	}
 
-	public EmpregadoDeptDTO(String cpf, String enome, String dnome) {
+	public EmpregadoDeptDTO(Long cpf, String enome, String dnome) {
 		this.cpf = cpf;
 		this.enome = enome;
 		this.dnome = dnome;
@@ -23,11 +23,11 @@ public class EmpregadoDeptDTO {
 		dnome = projection.getDnome();
 	}
 
-	public String getCpf() {
+	public Long getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(String cpf) {
+	public void setCpf(Long cpf) {
 		this.cpf = cpf;
 	}
 
