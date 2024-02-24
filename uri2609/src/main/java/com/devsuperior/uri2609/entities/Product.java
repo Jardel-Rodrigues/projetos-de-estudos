@@ -15,7 +15,7 @@ public class Product {
 	@Id
 	private Long id;
 	private String name;
-	private Integer amount;
+	private Double amount;
 	private BigDecimal price;
 	
 	@ManyToOne
@@ -41,11 +41,11 @@ public class Product {
 		this.name = name;
 	}
 
-	public Integer getAmount() {
+	public Double getAmount() {
 		return amount;
 	}
 
-	public void setAmount(Integer amount) {
+	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
 

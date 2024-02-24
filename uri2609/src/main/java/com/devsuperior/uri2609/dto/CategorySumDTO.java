@@ -5,19 +5,19 @@ import com.devsuperior.uri2609.projections.CategorySumProjection;
 public class CategorySumDTO {
 
 	private String name;
-	private Long sum;
+	private Double total;
 	
 	public CategorySumDTO() {
 	}
 
-	public CategorySumDTO(String name, Long sum) {
+	public CategorySumDTO(String name, Double total) {
 		this.name = name;
-		this.sum = sum;
+		this.total = total;
 	}
 
 	public CategorySumDTO(CategorySumProjection projection) {
 		name = projection.getName();
-		sum = projection.getSum();
+		total = projection.getSum();
 	}
 
 	public String getName() {
@@ -28,16 +28,16 @@ public class CategorySumDTO {
 		this.name = name;
 	}
 
-	public Long getSum() {
-		return sum;
+	public Double getTotal() {
+		return total;
 	}
 
-	public void setSum(Long sum) {
-		this.sum = sum;
+	public void setTotal(Double total) {
+		this.total = total;
 	}
 
 	@Override
 	public String toString() {
-		return "CategorySumDTO [name=" + name + ", sum=" + sum + "]";
+		return "CategorytotalDTO [name=" + name + ", sum=" + total + "]";
 	}
 }
