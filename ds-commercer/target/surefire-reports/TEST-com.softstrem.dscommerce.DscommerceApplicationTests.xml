@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.softstrem.dscommerce.DscommerceApplicationTests" time="10.694" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspace-git\ds-commercer\target\test-classes;C:\workspace-git\ds-commercer\target\classes;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.3\spring-boot-starter-data-jpa-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.3\spring-boot-starter-aop-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.3\spring-boot-starter-jdbc-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-jdbc\6.1.12\spring-jdbc-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\JARDEL\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\JARDEL\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\JARDEL\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\JARDEL\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\JARDEL\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\JARDEL\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\JARDEL\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\JARDEL\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\data\spring-data-jpa\3.3.3\spring-data-jpa-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\data\spring-data-commons\3.3.3\spring-data-commons-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-orm\6.1.12\spring-orm-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-context\6.1.12\spring-context-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-tx\6.1.12\spring-tx-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-beans\6.1.12\spring-beans-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-aspects\6.1.12\spring-aspects-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.3\spring-boot-starter-web-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.3\spring-boot-starter-json-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.3\spring-boot-starter-tomcat-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.28\tomcat-embed-core-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.28\tomcat-embed-el-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.28\tomcat-embed-websocket-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-web\6.1.12\spring-web-6.1.12.jar;C:\Users\JARDEL\.m2\repository\io\micrometer\micrometer-observation\1.13.3\micrometer-observation-1.13.3.jar;C:\Users\JARDEL\.m2\repository\io\micrometer\micrometer-commons\1.13.3\micrometer-commons-1.13.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-webmvc\6.1.12\spring-webmvc-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-expression\6.1.12\spring-expression-6.1.12.jar;C:\Users\JARDEL\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.3\spring-boot-starter-test-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-test\3.3.3\spring-boot-test-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.3\spring-boot-test-autoconfigure-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\JARDEL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\JARDEL\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\JARDEL\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\JARDEL\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\JARDEL\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\JARDEL\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\JARDEL\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\JARDEL\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.3\junit-jupiter-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\JARDEL\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\JARDEL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\JARDEL\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\JARDEL\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\JARDEL\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\JARDEL\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\JARDEL\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\JARDEL\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-core\6.1.12\spring-core-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-jcl\6.1.12\spring-jcl-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-test\6.1.12\spring-test-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.3\spring-boot-devtools-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot\3.3.3\spring-boot-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.3\spring-boot-autoconfigure-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.3\spring-boot-starter-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.3\spring-boot-starter-logging-3.3.3.jar;C:\Users\JARDEL\.m2\repository\ch\qos\logback\logback-classic\1.5.7\logback-classic-1.5.7.jar;C:\Users\JARDEL\.m2\repository\ch\qos\logback\logback-core\1.5.7\logback-core-1.5.7.jar;C:\Users\JARDEL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\JARDEL\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\JARDEL\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\JARDEL\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\JARDEL\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\JARDEL\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\JARDEL\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\JARDEL\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\JARDEL\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.3.3\spring-boot-starter-security-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-aop\6.1.12\spring-aop-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-config\6.3.3\spring-security-config-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-web\6.3.3\spring-security-web-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-test\6.3.3\spring-security-test-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-core\6.3.3\spring-security-core-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-crypto\6.3.3\spring-security-crypto-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-authorization-server\1.3.2\spring-security-oauth2-authorization-server-1.3.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.3.3\spring-security-oauth2-core-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.3.3\spring-security-oauth2-jose-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-resource-server\6.3.3\spring-security-oauth2-resource-server-6.3.3.jar;C:\Users\JARDEL\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.39.3\nimbus-jose-jwt-9.39.3.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-resource-server\3.3.3\spring-boot-starter-oauth2-resource-server-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.CR2\hibernate-validator-8.0.0.CR2.jar;C:\Users\JARDEL\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\JARDEL\AppData\Local\Temp\surefire16595942729172743432\surefirebooter-20240902001645832_3.jar C:\Users\JARDEL\AppData\Local\Temp\surefire16595942729172743432 2024-09-02T00-16-45_613-jvmRun1 surefire-20240902001645832_1tmp surefire_0-20240902001645832_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\workspace-git\ds-commercer\target\test-classes;C:\workspace-git\ds-commercer\target\classes;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.3\spring-boot-starter-data-jpa-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.3\spring-boot-starter-aop-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.3\spring-boot-starter-jdbc-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-jdbc\6.1.12\spring-jdbc-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\JARDEL\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\JARDEL\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\JARDEL\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\JARDEL\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\JARDEL\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\JARDEL\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\JARDEL\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\JARDEL\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\JARDEL\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\data\spring-data-jpa\3.3.3\spring-data-jpa-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\data\spring-data-commons\3.3.3\spring-data-commons-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-orm\6.1.12\spring-orm-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-context\6.1.12\spring-context-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-tx\6.1.12\spring-tx-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-beans\6.1.12\spring-beans-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-aspects\6.1.12\spring-aspects-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.3\spring-boot-starter-web-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.3\spring-boot-starter-json-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.3\spring-boot-starter-tomcat-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.28\tomcat-embed-core-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.28\tomcat-embed-el-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.28\tomcat-embed-websocket-10.1.28.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-web\6.1.12\spring-web-6.1.12.jar;C:\Users\JARDEL\.m2\repository\io\micrometer\micrometer-observation\1.13.3\micrometer-observation-1.13.3.jar;C:\Users\JARDEL\.m2\repository\io\micrometer\micrometer-commons\1.13.3\micrometer-commons-1.13.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-webmvc\6.1.12\spring-webmvc-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-expression\6.1.12\spring-expression-6.1.12.jar;C:\Users\JARDEL\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.3\spring-boot-starter-test-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-test\3.3.3\spring-boot-test-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.3\spring-boot-test-autoconfigure-3.3.3.jar;C:\Users\JARDEL\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\JARDEL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\JARDEL\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\JARDEL\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\JARDEL\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\JARDEL\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\JARDEL\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\JARDEL\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\JARDEL\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.3\junit-jupiter-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\JARDEL\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\JARDEL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\JARDEL\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\JARDEL\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\JARDEL\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\JARDEL\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\JARDEL\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\JARDEL\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\JARDEL\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-core\6.1.12\spring-core-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-jcl\6.1.12\spring-jcl-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-test\6.1.12\spring-test-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.3\spring-boot-devtools-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot\3.3.3\spring-boot-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.3\spring-boot-autoconfigure-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.3\spring-boot-starter-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.3\spring-boot-starter-logging-3.3.3.jar;C:\Users\JARDEL\.m2\repository\ch\qos\logback\logback-classic\1.5.7\logback-classic-1.5.7.jar;C:\Users\JARDEL\.m2\repository\ch\qos\logback\logback-core\1.5.7\logback-core-1.5.7.jar;C:\Users\JARDEL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\JARDEL\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\JARDEL\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\JARDEL\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\JARDEL\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\JARDEL\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\JARDEL\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\JARDEL\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\JARDEL\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.3.3\spring-boot-starter-security-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\spring-aop\6.1.12\spring-aop-6.1.12.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-config\6.3.3\spring-security-config-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-web\6.3.3\spring-security-web-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-test\6.3.3\spring-security-test-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-core\6.3.3\spring-security-core-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-crypto\6.3.3\spring-security-crypto-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-authorization-server\1.3.2\spring-security-oauth2-authorization-server-1.3.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.3.3\spring-security-oauth2-core-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.3.3\spring-security-oauth2-jose-6.3.3.jar;C:\Users\JARDEL\.m2\repository\org\springframework\security\spring-security-oauth2-resource-server\6.3.3\spring-security-oauth2-resource-server-6.3.3.jar;C:\Users\JARDEL\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.39.3\nimbus-jose-jwt-9.39.3.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\JARDEL\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-resource-server\3.3.3\spring-boot-starter-oauth2-resource-server-3.3.3.jar;C:\Users\JARDEL\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.CR2\hibernate-validator-8.0.0.CR2.jar;C:\Users\JARDEL\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\JARDEL\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JARDEL"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\workspace-git\ds-commercer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="windows-1252"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\JARDEL\AppData\Local\Temp\surefire16595942729172743432\surefirebooter-20240902001645832_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="JARDEL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\JARDEL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JARDEL\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\workspace-git\ds-commercer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="26524"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/SpringToolSuite4//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin/server;C:/SpringToolSuite4//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files\Java\jdk-17.0.10\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\JARDEL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\JARDEL\AppData\Local\Programs\Python\Python312\;C:\Users\JARDEL\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-17.0.10\bin;C:\Users\JARDEL\AppData\Local\Microsoft\WindowsApps;C:\Users\JARDEL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1\bin;;C:\Users\JARDEL\AppData\Roaming\npm;;C:\SpringToolSuite4;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.softstrem.dscommerce.DscommerceApplicationTests" time="0.622">
+    <system-out><![CDATA[00:16:47.082 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.softstrem.dscommerce.DscommerceApplicationTests]: DscommerceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:16:47.256 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.softstrem.dscommerce.DscommerceApplication for test class com.softstrem.dscommerce.DscommerceApplicationTests
+00:16:47.531 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-02T00:16:47.917-03:00  INFO 26524 --- [           main] c.s.d.DscommerceApplicationTests         : Starting DscommerceApplicationTests using Java 17.0.10 with PID 26524 (started by JARDEL in C:\workspace-git\ds-commercer)
+2024-09-02T00:16:47.919-03:00  INFO 26524 --- [           main] c.s.d.DscommerceApplicationTests         : The following 1 profile is active: "test"
+2024-09-02T00:16:49.241-03:00  INFO 26524 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T00:16:49.349-03:00  INFO 26524 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 5 JPA repository interfaces.
+2024-09-02T00:16:50.169-03:00  INFO 26524 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-02T00:16:50.496-03:00  INFO 26524 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-02T00:16:50.499-03:00  INFO 26524 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-02T00:16:50.569-03:00  INFO 26524 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T00:16:50.670-03:00  INFO 26524 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02T00:16:50.735-03:00  INFO 26524 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T00:16:51.408-03:00  INFO 26524 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T00:16:51.493-03:00  WARN 26524 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-02T00:16:53.146-03:00  INFO 26524 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    drop table if exists tb_category cascade 
+Hibernate: 
+    drop table if exists tb_order cascade 
+Hibernate: 
+    drop table if exists tb_order_item cascade 
+Hibernate: 
+    drop table if exists tb_payment cascade 
+Hibernate: 
+    drop table if exists tb_product cascade 
+Hibernate: 
+    drop table if exists tb_product_category cascade 
+Hibernate: 
+    drop table if exists tb_role cascade 
+Hibernate: 
+    drop table if exists tb_user cascade 
+Hibernate: 
+    drop table if exists tb_user_role cascade 
+Hibernate: 
+    create table tb_category (
+        id bigint generated by default as identity,
+        name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table tb_order (
+        status tinyint check (status between 0 and 4),
+        client_id bigint,
+        id bigint generated by default as identity,
+        moment TIMESTAMP WITHOUT TIME ZONE,
+        primary key (id)
+    )
+Hibernate: 
+    create table tb_order_item (
+        price float(53),
+        quantity integer,
+        order_id bigint not null,
+        product_id bigint not null,
+        primary key (order_id, product_id)
+    )
+Hibernate: 
+    create table tb_payment (
+        moment TIMESTAMP WITHOUT TIME ZONE,
+        order_id bigint not null,
+        primary key (order_id)
+    )
+Hibernate: 
+    create table tb_product (
+        price float(53),
+        id bigint generated by default as identity,
+        description TEXT,
+        img_url varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table tb_product_category (
+        category_id bigint not null,
+        product_id bigint not null,
+        primary key (category_id, product_id)
+    )
+Hibernate: 
+    create table tb_role (
+        id bigint generated by default as identity,
+        authority varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table tb_user (
+        birth_date date,
+        id bigint generated by default as identity,
+        email varchar(255) unique,
+        name varchar(255),
+        password varchar(255),
+        phone varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table tb_user_role (
+        role_id bigint not null,
+        user_id bigint not null,
+        primary key (role_id, user_id)
+    )
+Hibernate: 
+    alter table if exists tb_order 
+       add constraint FKi0x0rv7d65vsceuy33km9567n 
+       foreign key (client_id) 
+       references tb_user
+Hibernate: 
+    alter table if exists tb_order_item 
+       add constraint FK4h5xid5qehset7qwe5l9c997x 
+       foreign key (product_id) 
+       references tb_product
+Hibernate: 
+    alter table if exists tb_order_item 
+       add constraint FKgeobgl2xu916he8vhljktwxnx 
+       foreign key (order_id) 
+       references tb_order
+Hibernate: 
+    alter table if exists tb_payment 
+       add constraint FKokaf4il2cwit4h780c25dv04r 
+       foreign key (order_id) 
+       references tb_order
+Hibernate: 
+    alter table if exists tb_product_category 
+       add constraint FK5r4sbavb4nkd9xpl0f095qs2a 
+       foreign key (category_id) 
+       references tb_category
+Hibernate: 
+    alter table if exists tb_product_category 
+       add constraint FKgbof0jclmaf8wn2alsoexxq3u 
+       foreign key (product_id) 
+       references tb_product
+Hibernate: 
+    alter table if exists tb_user_role 
+       add constraint FKea2ootw6b6bb0xt3ptl28bymv 
+       foreign key (role_id) 
+       references tb_role
+Hibernate: 
+    alter table if exists tb_user_role 
+       add constraint FK7vn3h53d0tqdimm8cp45gc0kl 
+       foreign key (user_id) 
+       references tb_user
+Hibernate: INSERT INTO tb_category(name) VALUES ('Livros')
+Hibernate: INSERT INTO tb_category(name) VALUES ('EletrÃ´nicos')
+Hibernate: INSERT INTO tb_category(name) VALUES ('Computadores')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('The Lord of the Rings', 90.5, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/1-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('Smart TV', 2190.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('Macbook Pro', 1250.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/3-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer', 1200.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/4-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('Rails for Dummies', 100.99, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/5-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Ex', 1350.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/6-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer X', 1350.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/7-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Alfa', 1850.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/8-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Tera', 1950.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/9-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Y', 1700.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/10-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Nitro', 1450.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/11-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Card', 1850.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/12-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Plus', 1350.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/13-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Hera', 2250.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/14-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Weed', 2200.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/15-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Max', 2340.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/16-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Turbo', 1280.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/17-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Hot', 1450.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/18-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Ez', 1750.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/19-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Tr', 1650.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/20-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Tx', 1680.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/21-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Er', 1850.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/22-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Min', 2250.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/23-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Boo', 2350.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/24-big.jpg')
+Hibernate: INSERT INTO tb_product (name, price, description, img_url) VALUES ('PC Gamer Foo', 4170.0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/25-big.jpg')
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (1, 1)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (2, 2)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (2, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (3, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (4, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (5, 1)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (6, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (7, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (8, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (9, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (10, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (11, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (12, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (13, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (14, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (15, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (16, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (17, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (18, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (19, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (20, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (21, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (22, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (23, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (24, 3)
+Hibernate: INSERT INTO tb_product_category (product_id, category_id) VALUES (25, 3)
+Hibernate: INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Maria Brown', 'maria@gmail.com', '988888888', '$2a$10$N7SkKCa3r17ga.i.dF9iy.BFUBL2n3b6Z1CWSZWi/qy7ABq/E6VpO', '2001-07-25')
+Hibernate: INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Alex Green', 'alex@gmail.com', '977777777', '$2a$10$N7SkKCa3r17ga.i.dF9iy.BFUBL2n3b6Z1CWSZWi/qy7ABq/E6VpO', '1987-12-13')
+Hibernate: INSERT INTO tb_role (authority) VALUES ('ROLE_CLIENT')
+Hibernate: INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN')
+Hibernate: INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1)
+Hibernate: INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 1)
+Hibernate: INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2)
+Hibernate: INSERT INTO tb_order (moment, status, client_id) VALUES (TIMESTAMP WITH TIME ZONE '2022-07-25T13:00:00Z', 1, 1)
+Hibernate: INSERT INTO tb_order (moment, status, client_id) VALUES (TIMESTAMP WITH TIME ZONE '2022-07-29T15:50:00Z', 3, 2)
+Hibernate: INSERT INTO tb_order (moment, status, client_id) VALUES (TIMESTAMP WITH TIME ZONE '2022-08-03T14:20:00Z', 0, 1)
+Hibernate: INSERT INTO tb_order_item (order_id, product_id, quantity, price) VALUES (1, 1, 2, 90.5)
+Hibernate: INSERT INTO tb_order_item (order_id, product_id, quantity, price) VALUES (1, 3, 1, 1250.0)
+Hibernate: INSERT INTO tb_order_item (order_id, product_id, quantity, price) VALUES (2, 3, 1, 1250.0)
+Hibernate: INSERT INTO tb_order_item (order_id, product_id, quantity, price) VALUES (3, 1, 1, 90.5)
+Hibernate: INSERT INTO tb_payment (order_id, moment) VALUES (1, TIMESTAMP WITH TIME ZONE '2022-07-25T15:00:00Z')
+Hibernate: INSERT INTO tb_payment (order_id, moment) VALUES (2, TIMESTAMP WITH TIME ZONE '2022-07-30T11:00:00Z')
+2024-09-02T00:16:53.296-03:00  INFO 26524 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T00:16:53.821-03:00  INFO 26524 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-02T00:16:54.796-03:00  INFO 26524 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-09-02T00:16:56.760-03:00  INFO 26524 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-02T00:16:56.877-03:00  INFO 26524 --- [           main] c.s.d.DscommerceApplicationTests         : Started DscommerceApplicationTests in 9.366 seconds (process running for 10.818)
+]]></system-out>
+  </testcase>
+</testsuite>

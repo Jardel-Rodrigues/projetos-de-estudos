@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "security.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'security.client-id'"
+  },
+  {
+    "name": "security.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'security.client-secret'"
+  },
+  {
+    "name": "security.jwt.duration",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.duration'"
+  },
+  {
+    "name": "cors.origins",
+    "type": "java.lang.String",
+    "description": "A description for 'cors.origins'"
+  },
+  {
+    "name": "email.password-recover.token.minutes",
+    "type": "java.lang.String",
+    "description": "A description for 'email.password-recover.token.minutes'"
+  },
+  {
+    "name": "email.password-recover.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'email.password-recover.uri'"
+  },
+  {
+    "name": "email.default-sender",
+    "type": "java.lang.String",
+    "description": "A description for 'email.default-sender'"
+  },
+  {
+    "name": "aws.access_key_id",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.access_key_id'"
+  },
+  {
+    "name": "aws.secret_access_key",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.secret_access_key'"
+  },
+  {
+    "name": "s3.bucket",
+    "type": "java.lang.String",
+    "description": "A description for 's3.bucket'"
+  },
+  {
+    "name": "s3.region",
+    "type": "java.lang.String",
+    "description": "A description for 's3.region'"
+  }
+]}

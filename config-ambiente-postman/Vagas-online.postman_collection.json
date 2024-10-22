@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "b463a72b-9f60-4858-a138-fa77f83b93c7",
+		"name": "Vagas-online",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21889771"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (responseCode.code >= 200 && responseCode.code < 300) {\r",
+									"    var json = JSON.parse(responseBody);\r",
+									"    postman.setEnvironmentVariable('token', json.access_token);\r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{client-secret}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{client-id}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/oauth2/token",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"oauth2",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Cria-usuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Teste\",\r\n    \"email\": \"bob@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"roles\": [\r\n        {\r\n            \"id\": 1\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/usuarios/criar-usuario",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usuarios",
+								"criar-usuario"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
